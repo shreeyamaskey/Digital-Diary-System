@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+
+.button{
+    padding: .5rem 1rem;
+    color: azure;
+    background: lightskyblue;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Amaranth', serif;
+}
+
+.button:hover{
+    background-color: rgb(68, 203, 207);
+    color: black;
+}
+
+.btn-big{
+    padding: .4rem .5rem;
+}
+
+.btn_big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.button-group{
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+    float: left;
+}
+
+body {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    background: rgb(240, 253, 255);
+}
+
+#calendar {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.response {
+    height: 80px;
+}
+
+.success {
+    background: #cdf3cd;
+    padding: 10px 60px;
+    border: #c3e6c3 1px solid;
+    display: inline-block;
+}

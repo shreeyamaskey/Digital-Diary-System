@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background: lightcyan;    
+}
+
+#grad {
+    height: auto;
+    width: 88%;
+    margin: auto;
+    background-color: rgb(211, 201, 210); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(230, 195, 225), rgb(245, 192, 201));
+}
+
+#grad img {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    float: right;
+    border: 10px rgb(52, 61, 61);
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Amaranth', serif;
+    margin: 5px;
+    text-align: center;
+    text-shadow: azure;
+}
+
+p{
+    font-family: 'Amaranth', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+li, ol{
+    font-family: 'Amaranth', 'serif';
+    font-size: large;
+}
+
+.button-group {
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+    justify-content: left;
+}
+.button{
+    padding: .5rem 1rem;
+    color: rgb(52, 61, 61);
+    background: peachpuff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Amaranth', serif;
+}
+
+.button:hover{
+    background-color: rgb(255, 190, 133);
+    color: black;
+}
+
+.btn-big{
+    padding: .4rem .5rem;
+}
+
+.btn_big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+

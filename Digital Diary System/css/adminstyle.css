@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: papayawhip;
+    font-family: 'Source Serif Pro', serif;;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Amaranth', serif;
+    margin: 5px;
+    color: rgb(70, 67, 67);
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button{
+    padding: .5rem 1rem;
+    color: azure;
+    background: lightskyblue;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Amaranth', serif;
+}
+
+.button:hover{
+    background-color: rgb(68, 203, 207);
+    color: black;
+}
+
+.btn-big{
+    padding: .4rem .5rem;
+}
+
+.btn_big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.text_input{
+    padding: .1rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid papayawhip;
+    outline: none;
+    color: rgb(70, 67, 67);
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Amaranth', serif;
+}
+
+.text-input{
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid papayawhip;
+    outline: none;
+    color: rgb(70, 67, 67);
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Amaranth', serif;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background: rgb(5, 5, 5);
+    height: 70px;
+}
+
+header * {
+    color: rgb(45, 175, 226);
+}
+
+
+/* Nav Bar */
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 10px;
+    font-family: 'Amaranth', serif;
+}
+
+    
