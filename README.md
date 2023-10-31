@@ -1,1 +1,1 @@
-Digital Diary Sytem
+Digital Diary Sytem - A web application made for my IB Computer Science HL class. I have made a log in page as well as a sign up page (protected against sql injection). The Documentation folder contains all my planning and development process.
